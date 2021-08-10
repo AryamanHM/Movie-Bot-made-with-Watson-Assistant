@@ -1,0 +1,2333 @@
+{
+  "intents": [
+    {
+      "intent": "greeting",
+      "examples": [
+        {
+          "text": "film"
+        },
+        {
+          "text": "films"
+        },
+        {
+          "text": "Good Afternoon"
+        },
+        {
+          "text": "Good Day"
+        },
+        {
+          "text": "Good Evening"
+        },
+        {
+          "text": "Good Morning"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hi"
+        },
+        {
+          "text": "movie"
+        },
+        {
+          "text": "movies"
+        },
+        {
+          "text": "shows"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "seats",
+      "examples": [
+        {
+          "text": "1"
+        },
+        {
+          "text": "2"
+        },
+        {
+          "text": "3"
+        },
+        {
+          "text": "4"
+        },
+        {
+          "text": "5"
+        },
+        {
+          "text": "6"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "language",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "english",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "hindi",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "kannada",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "tamil",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "telugu",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "movie",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Bell Bottom",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Don't Breathe 2",
+          "synonyms": [
+            "Don't Breathe",
+            "Dont Breathe",
+            "Dont Breathe 2"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "F9",
+          "synonyms": [
+            "Fast & Furious"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "HWB",
+          "synonyms": [
+            "Hitman's Wife's Bodyguard"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Jungle Cruise",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "KGF 2",
+          "synonyms": [
+            "KGF"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Laal Singh Chaddha",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Netrikann",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Pushpa",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "RRR",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "The Suicide Squad",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Otp",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "5JULK9",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "6I9OSe",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "76BW4J",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "98iP90",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "A3TnQg",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "P06LXQ",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "price",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "200",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "225",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "250",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "280",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "320",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "region",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Bangalore",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Chennai",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Delhi",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hyderabad",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Kolkata",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mumbai",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Pune",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "seats",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "1",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "3",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "4",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "5",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "6",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "time",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "12noon",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "3pm",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "6pm",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "9am",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "9pm",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_9_1628182041491",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Hitman's Wife's Bodyguard",
+      "output": {
+        "generic": [
+          {
+            "source": "https://m.media-amazon.com/images/M/MV5BZWM1ZjVhMzUtNWNhMi00OTczLWE1ZjgtMjllNTM5ZjczMWQ1XkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg",
+            "response_type": "image"
+          },
+          {
+            "title": "Select number of tickets:-",
+            "options": [
+              {
+                "label": "1",
+                "value": {
+                  "input": {
+                    "text": "1"
+                  }
+                }
+              },
+              {
+                "label": "2",
+                "value": {
+                  "input": {
+                    "text": "2"
+                  }
+                }
+              },
+              {
+                "label": "3",
+                "value": {
+                  "input": {
+                    "text": "3"
+                  }
+                }
+              },
+              {
+                "label": "4",
+                "value": {
+                  "input": {
+                    "text": "4"
+                  }
+                }
+              },
+              {
+                "label": "5",
+                "value": {
+                  "input": {
+                    "text": "5"
+                  }
+                }
+              },
+              {
+                "label": "6",
+                "value": {
+                  "input": {
+                    "text": "6"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "@movie:HWB",
+      "dialog_node": "node_10_1628097263741",
+      "previous_sibling": "node_1_1628101197469"
+    },
+    {
+      "type": "standard",
+      "title": "Select Date",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Enter Date"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "@region",
+      "dialog_node": "node_10_1628103644187",
+      "previous_sibling": "node_5_1628096632052"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Payment link sent to your mobile. Once payment is done you will be redirected to a page where you can download your tickets."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1628182041491"
+      },
+      "conditions": "@Otp",
+      "dialog_node": "node_10_1628181913988",
+      "previous_sibling": "node_9_1628174787721"
+    },
+    {
+      "type": "standard",
+      "title": "Select movie",
+      "output": {
+        "generic": [
+          {
+            "title": "Movies near you:- ",
+            "options": [
+              {
+                "label": "Hitman's Wife's Bodyguard",
+                "value": {
+                  "input": {
+                    "text": "Hitman's Wife's Bodyguard"
+                  }
+                }
+              },
+              {
+                "label": "The Suicide Squad",
+                "value": {
+                  "input": {
+                    "text": "The Suicide Squad"
+                  }
+                }
+              },
+              {
+                "label": "Jungle Cruise",
+                "value": {
+                  "input": {
+                    "text": "Jungle Cruise"
+                  }
+                }
+              },
+              {
+                "label": "F9",
+                "value": {
+                  "input": {
+                    "text": "F9"
+                  }
+                }
+              },
+              {
+                "label": "Don't Breathe 2",
+                "value": {
+                  "input": {
+                    "text": "Don't Breathe 2"
+                  }
+                }
+              },
+              {
+                "label": "RRR",
+                "value": {
+                  "input": {
+                    "text": "RRR"
+                  }
+                }
+              },
+              {
+                "label": "Bell Bottom",
+                "value": {
+                  "input": {
+                    "text": "Bell Bottom"
+                  }
+                }
+              },
+              {
+                "label": "Laal Singh Chaddha",
+                "value": {
+                  "input": {
+                    "text": "Laal Singh Chaddha"
+                  }
+                }
+              },
+              {
+                "label": "KGF 2",
+                "value": {
+                  "input": {
+                    "text": "KGF 2"
+                  }
+                }
+              },
+              {
+                "label": "Pushpa",
+                "value": {
+                  "input": {
+                    "text": "Pushpa"
+                  }
+                }
+              },
+              {
+                "label": "Netrikann",
+                "value": {
+                  "input": {
+                    "text": "Netrikann"
+                  }
+                }
+              }
+            ],
+            "description": "These are the list of movies running in theatres near you.",
+            "response_type": "option"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#greeting",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1628101197469",
+      "previous_sibling": "node_1_1628505029112"
+    },
+    {
+      "type": "standard",
+      "title": "otpn",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Otp sent to your number. Please enter it:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1628174787721",
+      "conditions": "1",
+      "dialog_node": "node_1_1628179134913"
+    },
+    {
+      "type": "standard",
+      "title": "Pushpa",
+      "output": {
+        "generic": [
+          {
+            "source": "https://images.news18.com/ibnlive/uploads/2021/01/1611818353_pushpa-1.jpg",
+            "response_type": "image"
+          },
+          {
+            "title": "Select number of tickets:-",
+            "options": [
+              {
+                "label": "1",
+                "value": {
+                  "input": {
+                    "text": "1"
+                  }
+                }
+              },
+              {
+                "label": "2",
+                "value": {
+                  "input": {
+                    "text": "2"
+                  }
+                }
+              },
+              {
+                "label": "3",
+                "value": {
+                  "input": {
+                    "text": "3"
+                  }
+                }
+              },
+              {
+                "label": "4",
+                "value": {
+                  "input": {
+                    "text": "4"
+                  }
+                }
+              },
+              {
+                "label": "5",
+                "value": {
+                  "input": {
+                    "text": "5"
+                  }
+                }
+              },
+              {
+                "label": "6",
+                "value": {
+                  "input": {
+                    "text": "6"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "@movie:Pushpa",
+      "dialog_node": "node_1_1628503418921",
+      "previous_sibling": "node_1_1628504391032"
+    },
+    {
+      "type": "standard",
+      "title": "Netrikann",
+      "output": {
+        "generic": [
+          {
+            "source": "http://moviegalleri.net/wp-content/uploads/2020/10/Nayanthara-Netrikann-Movie-First-look-Poster.jpg",
+            "response_type": "image"
+          },
+          {
+            "title": "Select number of tickets:-",
+            "options": [
+              {
+                "label": "1",
+                "value": {
+                  "input": {
+                    "text": "1"
+                  }
+                }
+              },
+              {
+                "label": "2",
+                "value": {
+                  "input": {
+                    "text": "2"
+                  }
+                }
+              },
+              {
+                "label": "3",
+                "value": {
+                  "input": {
+                    "text": "3"
+                  }
+                }
+              },
+              {
+                "label": "4",
+                "value": {
+                  "input": {
+                    "text": "4"
+                  }
+                }
+              },
+              {
+                "label": "5",
+                "value": {
+                  "input": {
+                    "text": "5"
+                  }
+                }
+              },
+              {
+                "label": "6",
+                "value": {
+                  "input": {
+                    "text": "6"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "@movie:(Netrikann)",
+      "dialog_node": "node_1_1628504391032",
+      "previous_sibling": "node_2_1628503424707"
+    },
+    {
+      "type": "standard",
+      "title": "Kannada Films",
+      "output": {
+        "generic": [
+          {
+            "title": "Movies near you:- ",
+            "options": [
+              {
+                "label": "KGF 2",
+                "value": {
+                  "input": {
+                    "text": "KGF 2"
+                  }
+                }
+              }
+            ],
+            "description": "These are the list of movies running in theatres near you.",
+            "response_type": "option"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "@language:kannada",
+      "dialog_node": "node_1_1628505029112",
+      "previous_sibling": "node_3_1628505031747"
+    },
+    {
+      "type": "standard",
+      "title": "Jungle Cruise",
+      "output": {
+        "generic": [
+          {
+            "source": "https://m.media-amazon.com/images/M/MV5BZWFiZTM4ZDUtNzU0My00YmYxLWEzMDQtNzkxMzJhYmNiMTE3XkEyXkFqcGdeQXVyODkzNTgxMDg@._V1_.jpg",
+            "response_type": "image"
+          },
+          {
+            "title": "Select number of tickets:-",
+            "options": [
+              {
+                "label": "1",
+                "value": {
+                  "input": {
+                    "text": "1"
+                  }
+                }
+              },
+              {
+                "label": "2",
+                "value": {
+                  "input": {
+                    "text": "2"
+                  }
+                }
+              },
+              {
+                "label": "3",
+                "value": {
+                  "input": {
+                    "text": "3"
+                  }
+                }
+              },
+              {
+                "label": "4",
+                "value": {
+                  "input": {
+                    "text": "4"
+                  }
+                }
+              },
+              {
+                "label": "5",
+                "value": {
+                  "input": {
+                    "text": "5"
+                  }
+                }
+              },
+              {
+                "label": "6",
+                "value": {
+                  "input": {
+                    "text": "6"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "@movie:(Jungle Cruise)",
+      "dialog_node": "node_2_1628101900652",
+      "previous_sibling": "node_4_1628101921405"
+    },
+    {
+      "type": "standard",
+      "title": "KGF 2",
+      "output": {
+        "generic": [
+          {
+            "source": "https://images.indianexpress.com/2020/03/KGF-2-759.jpg",
+            "response_type": "image"
+          },
+          {
+            "title": "Select number of tickets:-",
+            "options": [
+              {
+                "label": "1",
+                "value": {
+                  "input": {
+                    "text": "1"
+                  }
+                }
+              },
+              {
+                "label": "2",
+                "value": {
+                  "input": {
+                    "text": "2"
+                  }
+                }
+              },
+              {
+                "label": "3",
+                "value": {
+                  "input": {
+                    "text": "3"
+                  }
+                }
+              },
+              {
+                "label": "4",
+                "value": {
+                  "input": {
+                    "text": "4"
+                  }
+                }
+              },
+              {
+                "label": "5",
+                "value": {
+                  "input": {
+                    "text": "5"
+                  }
+                }
+              },
+              {
+                "label": "6",
+                "value": {
+                  "input": {
+                    "text": "6"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "@movie:(KGF 2)",
+      "dialog_node": "node_2_1628503424707",
+      "previous_sibling": "node_3_1628503428157"
+    },
+    {
+      "type": "standard",
+      "title": "Laal Singh Chaddha",
+      "output": {
+        "generic": [
+          {
+            "source": "https://upload.wikimedia.org/wikipedia/en/thumb/7/70/Laal_Singh_Chaddha.jpg/220px-Laal_Singh_Chaddha.jpg",
+            "response_type": "image"
+          },
+          {
+            "title": "Select number of tickets:-",
+            "options": [
+              {
+                "label": "1",
+                "value": {
+                  "input": {
+                    "text": "1"
+                  }
+                }
+              },
+              {
+                "label": "2",
+                "value": {
+                  "input": {
+                    "text": "2"
+                  }
+                }
+              },
+              {
+                "label": "3",
+                "value": {
+                  "input": {
+                    "text": "3"
+                  }
+                }
+              },
+              {
+                "label": "4",
+                "value": {
+                  "input": {
+                    "text": "4"
+                  }
+                }
+              },
+              {
+                "label": "5",
+                "value": {
+                  "input": {
+                    "text": "5"
+                  }
+                }
+              },
+              {
+                "label": "6",
+                "value": {
+                  "input": {
+                    "text": "6"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "@movie:(Laal Singh Chaddha)",
+      "dialog_node": "node_3_1628503428157",
+      "previous_sibling": "node_4_1628503430814"
+    },
+    {
+      "type": "standard",
+      "title": "Tamil Films",
+      "output": {
+        "generic": [
+          {
+            "title": "Movies near you:- ",
+            "options": [
+              {
+                "label": "RRR",
+                "value": {
+                  "input": {
+                    "text": "RRR"
+                  }
+                }
+              },
+              {
+                "label": "KGF 2",
+                "value": {
+                  "input": {
+                    "text": "KGF 2"
+                  }
+                }
+              },
+              {
+                "label": "Netrikann",
+                "value": {
+                  "input": {
+                    "text": "Netrikann"
+                  }
+                }
+              }
+            ],
+            "description": "These are the list of movies running in theatres near you.",
+            "response_type": "option"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "@language:tamil",
+      "dialog_node": "node_3_1628505031747",
+      "previous_sibling": "node_5_1628505037501"
+    },
+    {
+      "type": "standard",
+      "title": "F9",
+      "output": {
+        "generic": [
+          {
+            "source": "https://i0.wp.com/www.socialnews.xyz/wp-content/uploads/2020/01/30/F9-Fast-and-Furious-9-The-Fast-Saga-Movie-Latest-Group-HD-Poster--scaled.jpg?quality=90&zoom=1&ssl=1",
+            "response_type": "image"
+          },
+          {
+            "title": "Select number of tickets:-",
+            "options": [
+              {
+                "label": "1",
+                "value": {
+                  "input": {
+                    "text": "1"
+                  }
+                }
+              },
+              {
+                "label": "2",
+                "value": {
+                  "input": {
+                    "text": "2"
+                  }
+                }
+              },
+              {
+                "label": "3",
+                "value": {
+                  "input": {
+                    "text": "3"
+                  }
+                }
+              },
+              {
+                "label": "4",
+                "value": {
+                  "input": {
+                    "text": "4"
+                  }
+                }
+              },
+              {
+                "label": "5",
+                "value": {
+                  "input": {
+                    "text": "5"
+                  }
+                }
+              },
+              {
+                "label": "6",
+                "value": {
+                  "input": {
+                    "text": "6"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "@movie:F9",
+      "dialog_node": "node_4_1628101921405",
+      "previous_sibling": "node_5_1628101924080"
+    },
+    {
+      "type": "standard",
+      "title": "Bell Bottom",
+      "output": {
+        "generic": [
+          {
+            "source": "https://m.media-amazon.com/images/M/MV5BZWFkMWM2NTMtYzQ3OC00NzczLTkyOWEtNzE3NGVhNDNmYjNlXkEyXkFqcGdeQXVyMTIzMDg4NTQ3._V1_FMjpg_UX1000_.jpg",
+            "response_type": "image"
+          },
+          {
+            "title": "Select number of tickets:-",
+            "options": [
+              {
+                "label": "1",
+                "value": {
+                  "input": {
+                    "text": "1"
+                  }
+                }
+              },
+              {
+                "label": "2",
+                "value": {
+                  "input": {
+                    "text": "2"
+                  }
+                }
+              },
+              {
+                "label": "3",
+                "value": {
+                  "input": {
+                    "text": "3"
+                  }
+                }
+              },
+              {
+                "label": "4",
+                "value": {
+                  "input": {
+                    "text": "4"
+                  }
+                }
+              },
+              {
+                "label": "5",
+                "value": {
+                  "input": {
+                    "text": "5"
+                  }
+                }
+              },
+              {
+                "label": "6",
+                "value": {
+                  "input": {
+                    "text": "6"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "@movie:(Bell Bottom)",
+      "dialog_node": "node_4_1628503430814",
+      "previous_sibling": "node_5_1628503434015"
+    },
+    {
+      "type": "standard",
+      "title": "Select Region",
+      "output": {
+        "generic": [
+          {
+            "title": "Select you city:- ",
+            "options": [
+              {
+                "label": "Chennai",
+                "value": {
+                  "input": {
+                    "text": "Chennai"
+                  }
+                }
+              },
+              {
+                "label": "Mumbai",
+                "value": {
+                  "input": {
+                    "text": "Mumbai"
+                  }
+                }
+              },
+              {
+                "label": "Delhi",
+                "value": {
+                  "input": {
+                    "text": "Delhi"
+                  }
+                }
+              },
+              {
+                "label": "Kolkata",
+                "value": {
+                  "input": {
+                    "text": "Kolkata"
+                  }
+                }
+              },
+              {
+                "label": "Hyderabad",
+                "value": {
+                  "input": {
+                    "text": "Hyderabad"
+                  }
+                }
+              },
+              {
+                "label": "Pune",
+                "value": {
+                  "input": {
+                    "text": "Pune"
+                  }
+                }
+              },
+              {
+                "label": "Bangalore",
+                "value": {
+                  "input": {
+                    "text": "Bangalore"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#seats",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1628096632052",
+      "previous_sibling": "node_1_1628503418921"
+    },
+    {
+      "type": "standard",
+      "title": "Don't Breathe 2",
+      "output": {
+        "generic": [
+          {
+            "source": "https://m.media-amazon.com/images/M/MV5BZDIxODMzMzEtMjg2Yy00OWQyLWFjZWYtMjM4ZTg1OGNjMTFkXkEyXkFqcGdeQXVyNjUxMjc1OTM@._V1_.jpg",
+            "response_type": "image"
+          },
+          {
+            "title": "Select number of tickets:-",
+            "options": [
+              {
+                "label": "1",
+                "value": {
+                  "input": {
+                    "text": "1"
+                  }
+                }
+              },
+              {
+                "label": "2",
+                "value": {
+                  "input": {
+                    "text": "2"
+                  }
+                }
+              },
+              {
+                "label": "3",
+                "value": {
+                  "input": {
+                    "text": "3"
+                  }
+                }
+              },
+              {
+                "label": "4",
+                "value": {
+                  "input": {
+                    "text": "4"
+                  }
+                }
+              },
+              {
+                "label": "5",
+                "value": {
+                  "input": {
+                    "text": "5"
+                  }
+                }
+              },
+              {
+                "label": "6",
+                "value": {
+                  "input": {
+                    "text": "6"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "@movie:(Don't Breathe 2)",
+      "dialog_node": "node_5_1628101924080",
+      "previous_sibling": "node_10_1628097263741"
+    },
+    {
+      "type": "standard",
+      "title": "RRR",
+      "output": {
+        "generic": [
+          {
+            "source": "https://m.media-amazon.com/images/M/MV5BN2VmM2VkNzQtNGNiNS00NjM5LWExMzAtZmIyMThkNGY4ODNiXkEyXkFqcGdeQXVyODc5MzY1Nzc@._V1_.jpg",
+            "response_type": "image"
+          },
+          {
+            "title": "Select number of tickets:-",
+            "options": [
+              {
+                "label": "1",
+                "value": {
+                  "input": {
+                    "text": "1"
+                  }
+                }
+              },
+              {
+                "label": "2",
+                "value": {
+                  "input": {
+                    "text": "2"
+                  }
+                }
+              },
+              {
+                "label": "3",
+                "value": {
+                  "input": {
+                    "text": "3"
+                  }
+                }
+              },
+              {
+                "label": "4",
+                "value": {
+                  "input": {
+                    "text": "4"
+                  }
+                }
+              },
+              {
+                "label": "5",
+                "value": {
+                  "input": {
+                    "text": "5"
+                  }
+                }
+              },
+              {
+                "label": "6",
+                "value": {
+                  "input": {
+                    "text": "6"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "@movie:RRR",
+      "dialog_node": "node_5_1628503434015",
+      "previous_sibling": "node_6_1628102189526"
+    },
+    {
+      "type": "standard",
+      "title": "Telugu Films",
+      "output": {
+        "generic": [
+          {
+            "title": "Movies near you:- ",
+            "options": [
+              {
+                "label": "RRR",
+                "value": {
+                  "input": {
+                    "text": "RRR"
+                  }
+                }
+              },
+              {
+                "label": "KGF 2",
+                "value": {
+                  "input": {
+                    "text": "KGF 2"
+                  }
+                }
+              },
+              {
+                "label": "Pushpa",
+                "value": {
+                  "input": {
+                    "text": "Pushpa"
+                  }
+                }
+              }
+            ],
+            "description": "These are the list of movies running in theatres near you.",
+            "response_type": "option"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "@language:telugu",
+      "dialog_node": "node_5_1628505037501",
+      "previous_sibling": "node_7_1628505041935"
+    },
+    {
+      "type": "standard",
+      "title": "The Suicide Squad",
+      "output": {
+        "generic": [
+          {
+            "source": "https://wallpapercave.com/wp/wp8020045.jpg",
+            "response_type": "image"
+          },
+          {
+            "title": "Select number of tickets:-",
+            "options": [
+              {
+                "label": "1",
+                "value": {
+                  "input": {
+                    "text": "1"
+                  }
+                }
+              },
+              {
+                "label": "2",
+                "value": {
+                  "input": {
+                    "text": "2"
+                  }
+                }
+              },
+              {
+                "label": "3",
+                "value": {
+                  "input": {
+                    "text": "3"
+                  }
+                }
+              },
+              {
+                "label": "4",
+                "value": {
+                  "input": {
+                    "text": "4"
+                  }
+                }
+              },
+              {
+                "label": "5",
+                "value": {
+                  "input": {
+                    "text": "5"
+                  }
+                }
+              },
+              {
+                "label": "6",
+                "value": {
+                  "input": {
+                    "text": "6"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "@movie:(The Suicide Squad)",
+      "dialog_node": "node_6_1628102189526",
+      "previous_sibling": "node_2_1628101900652"
+    },
+    {
+      "type": "standard",
+      "title": "time",
+      "output": {
+        "generic": [
+          {
+            "title": "Select time:",
+            "options": [
+              {
+                "label": "9am",
+                "value": {
+                  "input": {
+                    "text": "9am"
+                  }
+                }
+              },
+              {
+                "label": "12noon",
+                "value": {
+                  "input": {
+                    "text": "12noon"
+                  }
+                }
+              },
+              {
+                "label": "3pm",
+                "value": {
+                  "input": {
+                    "text": "3pm"
+                  }
+                }
+              },
+              {
+                "label": "6pm",
+                "value": {
+                  "input": {
+                    "text": "6pm"
+                  }
+                }
+              },
+              {
+                "label": "9pm",
+                "value": {
+                  "input": {
+                    "text": "9pm"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "@sys-date",
+      "dialog_node": "node_6_1628174267954",
+      "previous_sibling": "node_10_1628103644187"
+    },
+    {
+      "type": "standard",
+      "title": "price",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1628174787721"
+      },
+      "conditions": "@time",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_7_1628175607469",
+      "previous_sibling": "node_6_1628174267954"
+    },
+    {
+      "type": "standard",
+      "title": "Hindi Films",
+      "output": {
+        "generic": [
+          {
+            "title": "Movies near you:- ",
+            "options": [
+              {
+                "label": "Bell Bottom",
+                "value": {
+                  "input": {
+                    "text": "Bell Bottom"
+                  }
+                }
+              },
+              {
+                "label": "Laal Singh Chaddha",
+                "value": {
+                  "input": {
+                    "text": "Laal Singh Chaddha"
+                  }
+                }
+              },
+              {
+                "label": "KGF 2",
+                "value": {
+                  "input": {
+                    "text": "KGF 2"
+                  }
+                }
+              },
+              {
+                "label": "RRR",
+                "value": {
+                  "input": {
+                    "text": "RRR"
+                  }
+                }
+              }
+            ],
+            "description": "These are the list of movies running in theatres near you.",
+            "response_type": "option"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "@language:hindi",
+      "dialog_node": "node_7_1628505041935",
+      "previous_sibling": "node_9_1628505044354"
+    },
+    {
+      "type": "standard",
+      "title": "mobile",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Enter mobile number:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "",
+      "dialog_node": "node_9_1628174787721",
+      "previous_sibling": "node_7_1628175607469"
+    },
+    {
+      "type": "standard",
+      "title": "thanks",
+      "output": {
+        "generic": [
+          {
+            "title": "Thanks for using me.",
+            "source": "https://i.pinimg.com/originals/51/80/1b/51801b8503836e6464624d65b4836501.jpg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "dialog_node": "node_9_1628182041491",
+      "previous_sibling": "node_10_1628181913988"
+    },
+    {
+      "type": "standard",
+      "title": "English Films",
+      "output": {
+        "generic": [
+          {
+            "title": "Movies near you:- ",
+            "options": [
+              {
+                "label": "Hitman's Wife's Bodyguard",
+                "value": {
+                  "input": {
+                    "text": "Hitman's Wife's Bodyguard"
+                  }
+                }
+              },
+              {
+                "label": "The Suicide Squad",
+                "value": {
+                  "input": {
+                    "text": "The Suicide Squad"
+                  }
+                }
+              },
+              {
+                "label": "Jungle Cruise",
+                "value": {
+                  "input": {
+                    "text": "Jungle Cruise"
+                  }
+                }
+              },
+              {
+                "label": "F9",
+                "value": {
+                  "input": {
+                    "text": "F9"
+                  }
+                }
+              },
+              {
+                "label": "Don't Breathe 2",
+                "value": {
+                  "input": {
+                    "text": "Don't Breathe 2"
+                  }
+                }
+              }
+            ],
+            "description": "These are the list of movies running in theatres near you.",
+            "response_type": "option"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "@language:english",
+      "dialog_node": "node_9_1628505044354",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Rs. 280 per ticket"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1628175607469",
+      "conditions": "@time:6pm",
+      "dialog_node": "response_10_1628176379754",
+      "previous_sibling": "response_1_1628176365402"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Movies near you:- ",
+            "options": [
+              {
+                "label": "Hitman's Wife's Bodyguard",
+                "value": {
+                  "input": {
+                    "text": "Hitman's Wife's Bodyguard"
+                  }
+                }
+              },
+              {
+                "label": "The Suicide Squad",
+                "value": {
+                  "input": {
+                    "text": "The Suicide Squad"
+                  }
+                }
+              },
+              {
+                "label": "Jungle Cruise",
+                "value": {
+                  "input": {
+                    "text": "Jungle Cruise"
+                  }
+                }
+              },
+              {
+                "label": "F9",
+                "value": {
+                  "input": {
+                    "text": "F9"
+                  }
+                }
+              },
+              {
+                "label": "Don't Breathe 2",
+                "value": {
+                  "input": {
+                    "text": "Don't Breathe 2"
+                  }
+                }
+              }
+            ],
+            "description": "These are the list of movies running in theatres near you.",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1628505044354",
+      "disabled": true,
+      "dialog_node": "response_10_1628505044355"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Movies near you:- ",
+            "options": [
+              {
+                "label": "Hitman's Wife's Bodyguard",
+                "value": {
+                  "input": {
+                    "text": "Hitman's Wife's Bodyguard"
+                  }
+                }
+              },
+              {
+                "label": "The Suicide Squad",
+                "value": {
+                  "input": {
+                    "text": "The Suicide Squad"
+                  }
+                }
+              },
+              {
+                "label": "Jungle Cruise",
+                "value": {
+                  "input": {
+                    "text": "Jungle Cruise"
+                  }
+                }
+              },
+              {
+                "label": "F9",
+                "value": {
+                  "input": {
+                    "text": "F9"
+                  }
+                }
+              },
+              {
+                "label": "Don't Breathe 2",
+                "value": {
+                  "input": {
+                    "text": "Don't Breathe 2"
+                  }
+                }
+              }
+            ],
+            "description": "These are the list of movies running in theatres near you.",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1628101197469",
+      "disabled": true,
+      "dialog_node": "response_1_1628101610036"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Rs. 200 per ticket"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1628175607469",
+      "conditions": "@time:9am",
+      "dialog_node": "response_1_1628175671736"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Rs. 225 per ticket"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1628175607469",
+      "conditions": "@time:3pm",
+      "dialog_node": "response_1_1628176365402",
+      "previous_sibling": "response_4_1628176255331"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Movies near you:- ",
+            "options": [
+              {
+                "label": "Hitman's Wife's Bodyguard",
+                "value": {
+                  "input": {
+                    "text": "Hitman's Wife's Bodyguard"
+                  }
+                }
+              },
+              {
+                "label": "The Suicide Squad",
+                "value": {
+                  "input": {
+                    "text": "The Suicide Squad"
+                  }
+                }
+              },
+              {
+                "label": "Jungle Cruise",
+                "value": {
+                  "input": {
+                    "text": "Jungle Cruise"
+                  }
+                }
+              },
+              {
+                "label": "F9",
+                "value": {
+                  "input": {
+                    "text": "F9"
+                  }
+                }
+              },
+              {
+                "label": "Don't Breathe 2",
+                "value": {
+                  "input": {
+                    "text": "Don't Breathe 2"
+                  }
+                }
+              }
+            ],
+            "description": "These are the list of movies running in theatres near you.",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1628505029112",
+      "disabled": true,
+      "dialog_node": "response_2_1628505029113"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Rs. 320 per ticket"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1628175607469",
+      "conditions": "@time:9pm",
+      "dialog_node": "response_3_1628176394704",
+      "previous_sibling": "response_10_1628176379754"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Rs. 250 per ticket"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1628175607469",
+      "conditions": "@time:12noon",
+      "dialog_node": "response_4_1628176255331",
+      "previous_sibling": "response_1_1628175671736"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Movies near you:- ",
+            "options": [
+              {
+                "label": "Hitman's Wife's Bodyguard",
+                "value": {
+                  "input": {
+                    "text": "Hitman's Wife's Bodyguard"
+                  }
+                }
+              },
+              {
+                "label": "The Suicide Squad",
+                "value": {
+                  "input": {
+                    "text": "The Suicide Squad"
+                  }
+                }
+              },
+              {
+                "label": "Jungle Cruise",
+                "value": {
+                  "input": {
+                    "text": "Jungle Cruise"
+                  }
+                }
+              },
+              {
+                "label": "F9",
+                "value": {
+                  "input": {
+                    "text": "F9"
+                  }
+                }
+              },
+              {
+                "label": "Don't Breathe 2",
+                "value": {
+                  "input": {
+                    "text": "Don't Breathe 2"
+                  }
+                }
+              }
+            ],
+            "description": "These are the list of movies running in theatres near you.",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_3_1628505031747",
+      "disabled": true,
+      "dialog_node": "response_4_1628505031748"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Select you city:- ",
+            "options": [
+              {
+                "label": "Chennai",
+                "value": {
+                  "input": {
+                    "text": "Chennai"
+                  }
+                }
+              },
+              {
+                "label": "Mumbai",
+                "value": {
+                  "input": {
+                    "text": "Mumbai"
+                  }
+                }
+              },
+              {
+                "label": "Delhi",
+                "value": {
+                  "input": {
+                    "text": "Delhi"
+                  }
+                }
+              },
+              {
+                "label": "Kolkata",
+                "value": {
+                  "input": {
+                    "text": "Kolkata"
+                  }
+                }
+              },
+              {
+                "label": "Hyderabad",
+                "value": {
+                  "input": {
+                    "text": "Hyderabad"
+                  }
+                }
+              },
+              {
+                "label": "Pune",
+                "value": {
+                  "input": {
+                    "text": "Pune"
+                  }
+                }
+              },
+              {
+                "label": "Bangalore",
+                "value": {
+                  "input": {
+                    "text": "Bangalore"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1628096632052",
+      "disabled": true,
+      "conditions": "C",
+      "dialog_node": "response_5_1628101650992"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Movies near you:- ",
+            "options": [
+              {
+                "label": "Hitman's Wife's Bodyguard",
+                "value": {
+                  "input": {
+                    "text": "Hitman's Wife's Bodyguard"
+                  }
+                }
+              },
+              {
+                "label": "The Suicide Squad",
+                "value": {
+                  "input": {
+                    "text": "The Suicide Squad"
+                  }
+                }
+              },
+              {
+                "label": "Jungle Cruise",
+                "value": {
+                  "input": {
+                    "text": "Jungle Cruise"
+                  }
+                }
+              },
+              {
+                "label": "F9",
+                "value": {
+                  "input": {
+                    "text": "F9"
+                  }
+                }
+              },
+              {
+                "label": "Don't Breathe 2",
+                "value": {
+                  "input": {
+                    "text": "Don't Breathe 2"
+                  }
+                }
+              }
+            ],
+            "description": "These are the list of movies running in theatres near you.",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1628505037501",
+      "disabled": true,
+      "dialog_node": "response_6_1628505037502"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Movies near you:- ",
+            "options": [
+              {
+                "label": "Hitman's Wife's Bodyguard",
+                "value": {
+                  "input": {
+                    "text": "Hitman's Wife's Bodyguard"
+                  }
+                }
+              },
+              {
+                "label": "The Suicide Squad",
+                "value": {
+                  "input": {
+                    "text": "The Suicide Squad"
+                  }
+                }
+              },
+              {
+                "label": "Jungle Cruise",
+                "value": {
+                  "input": {
+                    "text": "Jungle Cruise"
+                  }
+                }
+              },
+              {
+                "label": "F9",
+                "value": {
+                  "input": {
+                    "text": "F9"
+                  }
+                }
+              },
+              {
+                "label": "Don't Breathe 2",
+                "value": {
+                  "input": {
+                    "text": "Don't Breathe 2"
+                  }
+                }
+              }
+            ],
+            "description": "These are the list of movies running in theatres near you.",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_7_1628505041935",
+      "disabled": true,
+      "dialog_node": "response_8_1628505041935"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1628174787721",
+      "disabled": true,
+      "dialog_node": "response_9_1628174859319",
+      "previous_sibling": "node_1_1628179134913"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello. I am a Movie Ticketing Bot."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": " I will help you in booking tickets for a film."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "intent_classification": {
+      "training_backend_version": "v2"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "Movie_Ticketing_Bot",
+  "language": "en",
+  "description": ""
+}
